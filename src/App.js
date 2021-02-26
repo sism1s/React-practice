@@ -1,5 +1,6 @@
 import React from "react";
 import Test from "./Test";
+import TestApi from "./TestApi";
 import TestReducer from "./TestReducer";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Test />
       <TestReducer />
+      <TestApi />
     </div>
   );
 }
